@@ -44,7 +44,7 @@ tags: []
 featured: false
 
 # Links
-url_pdf: ''
+url_pdf: 'https://arxiv.org/pdf/2305.16594.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''

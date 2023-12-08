@@ -43,7 +43,7 @@ tags: []
 featured: false
 
 # Links
-url_pdf: ''
+url_pdf: 'https://www.frontiersin.org/articles/10.3389/fnins.2020.00199/full'
 url_code: ''
 url_dataset: ''
 url_poster: ''

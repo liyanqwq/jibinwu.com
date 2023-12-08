@@ -44,7 +44,7 @@ tags: []
 featured: false
 
 # Links
-url_pdf: ''
+url_pdf: 'https://link.springer.com/chapter/10.1007/978-981-15-6912-8_13'
 url_code: ''
 url_dataset: ''
 url_poster: ''

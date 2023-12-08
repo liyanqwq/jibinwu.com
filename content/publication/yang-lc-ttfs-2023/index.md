@@ -44,13 +44,13 @@ tags: []
 featured: false
 
 # Links
-url_pdf: ''
+url_pdf: 'https://arxiv.org/pdf/2310.14978.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: 'Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.'
+url_source: ''
 url_video: ''
 
 # Custom links (uncomment lines below)

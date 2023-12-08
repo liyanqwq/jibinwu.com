@@ -44,7 +44,7 @@ tags: []
 featured: false
 
 # Links
-url_pdf: ''
+url_pdf: 'https://www.isca-speech.org/archive/pdfs/interspeech_2019/wu19h_interspeech.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''

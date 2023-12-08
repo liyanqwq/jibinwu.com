@@ -44,7 +44,7 @@ tags: []
 featured: false
 
 # Links
-url_pdf: ''
+url_pdf: 'http://www.interspeech2020.org/uploadfile/pdf/Wed-2-2-3.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''

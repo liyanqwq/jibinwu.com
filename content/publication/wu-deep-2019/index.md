@@ -44,7 +44,7 @@ tags: []
 featured: false
 
 # Links
-url_pdf: ''
+url_pdf: 'https://ieeexplore.ieee.org/abstract/document/8852380/'
 url_code: ''
 url_dataset: ''
 url_poster: ''

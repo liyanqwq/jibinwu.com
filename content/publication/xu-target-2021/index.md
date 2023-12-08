@@ -43,7 +43,7 @@ tags: []
 featured: false
 
 # Links
-url_pdf: ''
+url_pdf: 'https://ieeexplore.ieee.org/abstract/document/9502020/'
 url_code: ''
 url_dataset: ''
 url_poster: ''

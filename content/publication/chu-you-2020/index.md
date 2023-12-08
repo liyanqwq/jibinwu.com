@@ -48,7 +48,7 @@ tags: []
 featured: false
 
 # Links
-url_pdf: ''
+url_pdf: 'https://arxiv.org/pdf/2006.09982.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
