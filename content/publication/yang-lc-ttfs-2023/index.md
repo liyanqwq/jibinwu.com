@@ -50,7 +50,7 @@ url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: ''
+url_source: 'Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.'
 url_video: ''
 
 # Custom links (uncomment lines below)
@@ -73,4 +73,4 @@ image:
 projects: []
 ---
 
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.
+
