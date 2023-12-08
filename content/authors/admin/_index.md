@@ -1,90 +1,66 @@
 ---
 # Display name
-title: 吳健雄
+title: Jibin Wu
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+# name_pronunciation: Chien Shiung Wu
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Jibin
+last_name: Wu
 
 # Status emoji
-status:
-  icon: ☕️
+# status:
+#   icon: ☕️
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Assistant Professor 
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: MIND Lab
+    url: https://www.mindlab-ai.com/
+  - name: The Hong Kong Polytechnic University
+    url: https://www.polyu.edu.hk/
+  
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+# bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - title: Computational Neuroscience
+    icon: fa-link
+    desc: Learning Algorithms for Spiking Neural Networks, Neural Coding, Brain-inspired Neural Architecture Design
+  - title: Computational Audition
+    icon: fa-ear-listen
+    desc: Human Auditory System Modelling, Auditory Attention Modelling, Cocktail Party Problem
+  - title: Speech Processing
+    icon: fa-bullhorn
+    desc: Automatic Speech Recognition, Speech Separation, Speaker Extraction, Speaker Verification, etc.
+  - title: Cognitive Robot
+    icon: fa-robot
+    desc: Neuromorphic Sensing, Human-Robot Interaction, Embodied AI, Neural Cognitive Architecture
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: PhD of Engineering 
+      institution: National University of Singapore
+      year: 2020
+    - course: BEng in Electrical Engineering
+      institution: National University of Singapore
+      year: 2016
 
-# Skills
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-skills:
-  - name: Technical
-    items:
-      - name: Python
-        description: ''
-        percent: 80
-        icon: python
-        icon_pack: fab
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-line
-        icon_pack: fas
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: database
-        icon_pack: fas
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-hiking
-        icon_pack: fas
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-        icon_pack: fas
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera-retro
-        icon_pack: fas
+contact:
+  - title: PQ825, The Hong Kong Polytechnic University
+    icon: fa-location-dot
+    desc: Hung Hom, Kowloon, Hong Kong
+  - title: jibin.wu@polyu.edu.hk
+    icon: fa-envelope
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -93,32 +69,24 @@ skills:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-    label: Follow me on Twitter
-    display:
-      header: true
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/gcushen
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/
+    link: mailto:jibin.wu@polyu.edu.hk
+  - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
+    icon_pack: ai
+    link: https://scholar.google.com.sg/citations?hl=en&user=QwDyvrgAAAAJ
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
-  - icon: cv
-    icon_pack: ai
-    link: uploads/resume.pdf
+  # - icon: cv
+  #   icon_pack: ai
+  #   link: uploads/resume.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Dr. Jibin Wu is an Assistant Professor in the Department of Computing, The Hong Kong Polytechnic University. Before joining PolyU, he was a research scientist at Sea AI Lab (SAIL) from 2021 to 2022. Dr. Wu received Bachelor and Ph.D. degrees from National University of Singapore (NUS) in 2016 and 2020, respectively. Dr. Wu is currently affiliated with the MIND Lab@PolyU, which is dedicated to pushing the boundary of nature-inspired artificial intelligence research.
+
+In particular, his research interests broadly include brain-inspired artificial intelligence, neuromorphic computing, computational audition, speech processing, and machine learning. Particularly, he is dedicated to understanding the computational principles and architectures of biological brains, and to designing next-generation brain-inspired cognitive machines that are superintelligent, low-power, robust, adaptive, and explainable.
+
+Dr. Wu has actively published in prestigious conferences and journals in artificial intelligence and speech processing, including NeurIPS, AAAI, TPAMI, TNNLS, TASLP, Neurocomputing, and IEEE JSTSP. He is currently serving as the Associate Editors for IEEE Transactions on Neural Networks and Learning Systems and IEEE Transactions on Cognitive and Developmental Systems.
 {style="text-align: justify;"}

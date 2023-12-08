@@ -1,0 +1,91 @@
+{{/* Hugo Blox: Team */}}
+{{/* Documentation: https://hugoblox.com/blocks/ */}}
+{{/* License: https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md */}}
+
+{{/* Initialise */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $columns := $block.design.columns | default "1" }}
+{{ $text := $block.content.text | emojify | $page.RenderString }}
+{{ $members := $block.content.members}}
+
+{{ if ne $columns "1" }}
+  <div class="col-12 col-lg-8">
+    {{ $text }}
+  </div>
+{{ else }}
+  <div class="col-12 col-lg-10 col-lg-offset-1">
+    {{ range $members }}
+    <div style="max-width: 880px; margin: 0 auto 2rem;">
+      <style>
+        .member-grid {
+          display: grid;
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+          margin: -0.5rem;
+        }
+        .member-card img {
+          height: 16rem;
+        }
+        @media only screen and (min-width: 768px) {
+          .member-grid {
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+          }
+        }
+        @media only screen and (min-width: 992px) {
+          .member-grid {
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+          }
+          .member-card img {
+            height: 12rem;
+          }
+        }
+        .member-card {
+          margin: 0.5rem;
+          border-radius: 0.6rem!important;
+          overflow: hidden;
+        }
+      </style>
+      <h3 style="margin: 1.2em 0 1em;">{{ .title }}</h3>
+      {{ if eq .title "Alumni" }}
+      <div class="row g-0">
+        {{ range .members }}
+        <div class="col-12 col-md-6">
+          <div class="card" style="min-height: 7.6rem">
+            <div class="card-body">
+              <a href="{{ .link }}" rel="noreferrer noopener" style="color:inherit;" class="section-subheading card-title exp-title my-0" style="font-size:12pt!important;">{{ .name }}</a>
+              <div class="card-subtitle my-0 article-metadata" style="line-height:1.2;margin-top:0.3rem!important;">{{ .type }}<span class="middot-divider"></span>{{ .time }}</div>
+              <div class="article-metadata" style="line-height:1.2;margin-top:0.25rem!important;margin-bottom:0;">{{ .text }}</div>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+
+      {{ else }}
+      <div class="member-grid">
+        {{ range .members }}
+        <div class="card member-card">
+          {{ $image := resources.Get .image }}
+          {{ with resources.Get .image }}<img src="{{ .RelPermalink }}" class="card-img-top" style="user-select:none;object-fit:cover;object-position:center;">{{ end }}
+          <div class="card-body">
+            <div class="py-0 px-0">
+              <h4 style="font-size: 12pt; margin: 0 0 0.35rem;">{{ .name }}</h4>
+              {{ with .interests }}
+              <p style="font-size: 10pt; font-weight: 600; opacity:0.95; margin-bottom:0.2rem;">Research Interests</p>
+              {{ range . }}
+              <div style="font-size: 8.5pt; opacity:0.8; word-break: break-all; display: flex; align-items: flex-start;">
+                <p class="my-0" style="user-select: none;">-&nbsp;&nbsp;</p>
+                <p class="my-0" style="text-align: justify;">{{.}}</p>
+              </div>
+              {{ end }}
+              {{ end }}
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+{{ end }}
