@@ -235,8 +235,6 @@ sections:
               url: https://www.frontiersin.org/articles/10.3389/fnins.2018.00836/full
             - cite: 'C. Xu, W. Rao, J. Wu, H. Li, "Target Speaker Verification with Selective Auditory Attention for Single and Multi-talker Speech ", in _IEEE Transactions on Audio, Speech and Language Processing_, 2021.'
               url: https://ieeexplore.ieee.org/abstract/document/9502020/
-      design:
-        columns: '2'
     design:
       columns: '2'
       view: citation
