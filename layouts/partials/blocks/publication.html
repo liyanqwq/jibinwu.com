@@ -1,0 +1,51 @@
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $columns := $block.design.columns | default "2" }}
+
+<div class="col-12 {{if eq $columns "2"}}col-lg-8{{end}}">
+  <div class="{{if eq $columns "1"}}d-flex justify-content-center{{end}}">
+    <div class="btn-group btn-group-sm flex-wrap">
+      {{ range $idx, $item := $block.content.content }}
+        <button style="font-size: 11px;" id="pub-{{$idx}}" onclick="toggleNav({{$idx}})" class="btn btn-light btn-sm pub-btn {{ if eq $idx 0 }} active {{ end }}">{{ $item.title }}</button>
+      {{ end }}
+    </div>
+  </div>
+  <div>
+    {{ range $idx, $item := $block.content.content }}
+    <div class="pub-div" {{if ne $idx 0}} style="display:none;"{{end}} id="pd-{{$idx}}">
+      <div class="mt-3">
+        {{ range $item.content }}
+        {{ $cite := .cite }}
+        {{ $name := $page.Params.paper_highlight }}
+        {{ $name_with_star := add $name "*"}}
+        {{ if strings.Contains $cite $name_with_star }}
+        {{ $cite := replace $cite $name_with_star (add "<b>" (add $name_with_star "</b>")) }}
+        {{ $cite := replace $cite  ", \"" ", [\"" }}
+        {{ $cite := replace $cite  "\"," (add "\"](" (add .url "),")) }}
+        <div class="pub-list-item view-citation" style="margin-bottom: 0.4em; font-size: 1em;">
+          <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+          <span>{{ $cite | markdownify }}</span>
+        </div>
+        {{ else }}
+        {{ $cite := replace $cite $name (add "<b>" (add $name "</b>")) }}
+        {{ $cite := replace $cite  ", \"" ", [\"" }}
+        {{ $cite := replace $cite  "\"," (add "\"](" (add .url "),")) }}
+        <div class="pub-list-item view-citation" style="margin-bottom: 0.4em; font-size: 1em;">
+          <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+          <span>{{ $cite | markdownify }}</span>
+        </div>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>
+<script>
+  function toggleNav(id){
+    $('.pub-btn').removeClass('active');
+    $('.pub-div').hide();
+    $('#pub-'+id).addClass('active');
+    $('#pd-'+id).fadeIn();
+  }
+</script>

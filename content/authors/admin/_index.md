@@ -48,7 +48,7 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: PhD of Engineering 
+    - course: Doctor of Philosophy
       institution: National University of Singapore
       year: 2020
     - course: BEng in Electrical Engineering
@@ -84,9 +84,9 @@ social:
 highlight_name: true
 ---
 
-Dr. Jibin Wu is an Assistant Professor in the Department of Computing, The Hong Kong Polytechnic University. Before joining PolyU, he was a research scientist at Sea AI Lab (SAIL) from 2021 to 2022. Dr. Wu received Bachelor and Ph.D. degrees from National University of Singapore (NUS) in 2016 and 2020, respectively. Dr. Wu is currently affiliated with the MIND Lab@PolyU, which is dedicated to pushing the boundary of nature-inspired artificial intelligence research.
+Dr. Jibin Wu is an Assistant Professor in the Department of Computing, The Hong Kong Polytechnic University. Before joining PolyU, he was a research scientist at Sea AI Lab (SAIL) from 2021 to 2022. Dr. Wu received Bachelor and Ph.D. degrees from National University of Singapore (NUS) in 2016 and 2020, respectively. 
 
-In particular, his research interests broadly include brain-inspired artificial intelligence, neuromorphic computing, computational audition, speech processing, and machine learning. Particularly, he is dedicated to understanding the computational principles and architectures of biological brains, and to designing next-generation brain-inspired cognitive machines that are superintelligent, low-power, robust, adaptive, and explainable.
+Dr. Wu is currently affiliated with the MIND Lab@PolyU, which is dedicated to advancing the frontiers of nature-inspired artificial intelligence research. His research interests encompass a wide range of areas, focusing on brain-inspired artificial intelligence, neuromorphic computing, computational audition, speech processing, and machine learning. His primary dedication lies in unraveling the computational principles and architectures of biological brains while also striving to develop cutting-edge brain-inspired cognitive machines that possess exceptional intelligence, energy efficiency, robustness, adaptability, and explainability.
 
 Dr. Wu has actively published in prestigious conferences and journals in artificial intelligence and speech processing, including NeurIPS, AAAI, TPAMI, TNNLS, TASLP, Neurocomputing, and IEEE JSTSP. He is currently serving as the Associate Editors for IEEE Transactions on Neural Networks and Learning Systems and IEEE Transactions on Cognitive and Developmental Systems.
 {style="text-align: justify;"}

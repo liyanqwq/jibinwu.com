@@ -4,6 +4,25 @@ title: ''
 date: 2022-10-24
 type: landing
 
+paper_highlight: 'J. Wu'
+
+gallery_item:
+  - album: team_photos
+    image: 2019thu.jpg
+    caption: '2019 International Collegiate Competition for Brain-inspired Computing<br />@Tsinghua University' 
+  - album: team_photos
+    image: 2022hiking.jpg
+    caption: Hiking at Ma On Shan, 2022 Autumn
+  - album: team_photos
+    image: 2023_1_w1.jpg
+    caption: Welcome Reception for New Team Members, 2023 Autumn
+  - album: team_photos
+    image: 2023_1_w2.jpg
+    caption: Welcome Reception for New Team Members, 2023 Autumn
+  - album: team_photos
+    image: 2023_2_intel.png
+    caption: '2023 Intel Neuromorphic Deep Noise Suppression Challenge'
+
 sections:
   - block: about.biography
     id: about
@@ -37,6 +56,28 @@ sections:
           date_end: '2022-09-01'
     design:
       columns: '2'
+  - block: accomplishments
+    content:
+      title: 'Editorial Service'
+      items:
+        - organization: 'IEEE Transactions on Neural Networks and Learning Systems (IF: 10.4)'
+          title: Associate Editor
+        - organization: 'IEEE Transactions on Cognitive and Developmental Systems (IF: 5.0)'
+          title: Associate Editor
+        - organization: Natural Language Processing Journal
+          title: Editor
+    design:
+      columns: '2'
+  - block: accomplishments
+    content:
+      title: 'Community Service'
+      items:
+        - organization: 'IEEE (Hong Kong) Computational Intelligence Chapter'
+          title: 'Executive Committee Member'
+        - organization: 'ICASSP-2022 Special Session on &#34;Towards neuromorphic machine intelligence: spike-based representation, learning, and signal processing&#34;'
+          title: Organizer
+    design:
+      columns: '2'
   - block: team
     id: team
     content:
@@ -44,27 +85,6 @@ sections:
       members:
         - title: Postdoc Fellows
           members:
-            - name: Xun ZHOU
-              image: media/albums/team/xun_zhou.webp
-              interests:
-                - Evolutionary algorithm
-                - Neural architecture search
-            - name: Hao CHENG
-              image: media/albums/team/hao_cheng.webp
-              interests:
-                - Data-driven Materials Design Machine Learning
-                - Accelerated Atomistic Simulations
-            - name: Yuxiao HUANG
-              image: media/albums/team/yuxiao_huang.webp
-              interests:
-                - Evolutionary Transfer Optimization
-                - Combinatorial Optimization
-                - Parallel Computing
-            - name: Tong YANG
-              image: media/albums/team/tong_yang.webp
-              interests:
-                - High-throughput Calculations
-                - Material discovery
             - name: Xingyu WU
               image: media/albums/team/xingyu_wu.webp
               interests:
@@ -121,53 +141,27 @@ sections:
               image: media/albums/team/hao_xiang.webp
               interests:
                 - Audio/Speech Signal Processing
-            - name: Cheng CHEN
-              image: media/albums/team/chen_cheng.webp
-              interests:
-                - Game theory  
-                - Mechanism design
-                - Fair allocation
             - name: Xinyi CHEN
               image: media/albums/team/chen_xinyi.webp
               interests:
                 - Neuromorphic Computing
                 - Spiking Neural Networks
-            - name: Wu LIN
-              image: media/albums/team/lin_wu.webp
-              interests:
-                - Evolutionary Computation
-                - Evolutionary Transfer Optimization
             - name: Chenxiang MA
               image: media/albums/team/ma_chenxiang.webp
               interests:
                 - Spiking Neural Network
                 - Local Learning
-            - name: Zhenzhong WANG
-              image: media/albums/team/wang_zhenzhong.webp
+            - name: Zeyang SONG
+              image: media/albums/team/zeyang_song.jpg
               interests:
-                - Machine Learning
-                - Evolutionary Computation
-            - name: Yao HU
-              image: media/albums/team/hu_yao.webp
+                - Speech Processing
+                - Spiking Neural Network
+            - name: Qu YANG
+              image: media/albums/team/qu_yang.jpg
               interests:
-                - Domain Adaptation
-                - Federated Learning
-                - Medical AI
-            - name: Xiaoming XUE
-              image: media/albums/team/xue_xiaoming.webp
-              interests:
-                - Evolutionary Transfer Optimization
-                - Engineering Design Optimization
-            - name: Rui LIU
-              image: media/albums/team/liu_rui.webp
-              interests:
-                - Medical Diagnosis 
-                - Deep Learning
-            - name: Yinglan FENG
-              image: media/albums/team/feng_yinglan.webp
-              interests:
-                - Multiform Optimization
-                - Evolutionary Transfer Optimization
+                - Spiking Neural Network
+                - Neural Coding
+                - Neuromorphic Computing
         - title: Research Assistant
           members:
             - name: Kaixuan YANG
@@ -179,54 +173,91 @@ sections:
               image: media/albums/team/xu_mengqi.webp
               interests:
                 - Machine Learning
-        - title: Alumni
-          members:
-            - name: Songbai LIU
-              link: https://csse.szu.edu.cn/pages/user/index?id=1267
-              time: 2019 - 2022
-              type: Ph.D. Student
-              text: Assistant Professor, Shenzhen University
-            - name: Zhian HUANG
-              link: https://huangza.wixsite.com/mysite
-              time: 2018 - 2021
-              type: Ph.D. Student
-              text: Research Fellow, City University of Hong Kong (Dongguan)
+        # - title: Alumni
+        #   members:
+        #     - name: Songbai LIU
+        #       link: https://csse.szu.edu.cn/pages/user/index?id=1267
+        #       time: 2019 - 2022
+        #       type: Ph.D. Student
+        #       text: Assistant Professor, Shenzhen University
+        #     - name: Zhian HUANG
+        #       link: https://huangza.wixsite.com/mysite
+        #       time: 2018 - 2021
+        #       type: Ph.D. Student
+        #       text: Research Fellow, City University of Hong Kong (Dongguan)
     design:
       columns: '1'
-  - block: accomplishments
+  - block: markdown
     content:
-      title: 'Editorial and<br />Community<br />Service'
-      items:
-        - organization: 'IEEE Transactions on Neural Networks and Learning Systems (IF: 10.4)'
-          title: Associate Editor
-        - organization: 'IEEE Transactions on Cognitive and Developmental Systems (IF: 5.0)'
-          title: Associate Editor
-        - organization: Natural Language Processing Journal
-          title: Editor
-        - organization: 'IEEE (Hong Kong) Computational Intelligence Chapter'
-          title: 'Executive Committee Member'
-        - organization: 'ICASSP-2022 Special Session on &#34;Towards neuromorphic machine intelligence: spike-based representation, learning, and signal processing&#34;'
-          title: Organizer
+      title: Team Photos
+      subtitle: ''
+      text: |-
+        {{< gallery album="team_photos" order="desc" >}}
     design:
-      columns: '2'
-  - block: collection
+      columns: '1'
+  - block: publication
     id: publication
     content:
-      title: Recent Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
-      filters:
-        folders:
-          - publication
-        exclude_featured: true
+      title: Featured Research
+      content:
+        - title: Spiking Neural Network Learning Algorithms
+          content:
+            - cite: 'Q. Yang, J. Wu*, M. Zhang, Y. Chua, X. Wang, H. Li, "Training Spiking Neural Networks with Local Tandem Learning", in _Advances in Neural Information Processing Systems_ (2022): 14516-14528.'
+              url: https://proceedings.neurips.cc/paper_files/paper/2022/hash/523caec7832a47fb19b8471dbfeec471-Abstract-Conference.html
+            - cite: 'J. Wu, C. Xu, X. Han, D. Zhou, M. Zhang, H. Li, and K. C. Tan, "Progressive Tandem Learning for Pattern Recognition with Deep Spiking Neural Networks. ", in _IEEE Transactions on Pattern Analysis and Machine Intelligence_, 2021.'
+              url: https://ieeexplore.ieee.org/abstract/document/9543525/
+            - cite: 'J. Wu, Y. Chua, M. Zhang, G. Li, H. Li, and K. C. Tan, "A Tandem Learning Rule for Effective Training and Rapid Inference of Deep Spiking Neural Networks.", in _IEEE Transactions on Neural Networks and Learning Systems_, 2021.'
+              url: https://ieeexplore.ieee.org/abstract/document/9492305/
+            
+        - title: Neural Coding
+          content:
+            - cite: 'X. Chen, Q. Yang, J. Wu*, H. Li, and K. C. Tan, "A Hybrid Neural Coding Approach for Pattern Recognition with Spiking Neural Networks", in _IEEE Transactions on Pattern Analysis and Machine Intelligence_, doi: 10.1109/TPAMI.2023.3339211.'
+              url: https://arxiv.org/abs/2305.16594
+            - cite: 'Z. Pan, M. Zhang, J. Wu*, H. Li, "Multi-Tone Phase Coding of Interaural Time Difference for Sound Source Localization with Spiking Neural Networks", in _IEEE Transactions on Audio, Speech and Language Processing_, 2021.'
+              url: https://ieeexplore.ieee.org/abstract/document/9502013/
+            - cite: 'Z. Pan, Y. Chua, J. Wu, M. Zhang, H. Li, and E. Ambikairajah, "An Efficient and Perceptually Motivated Auditory Neural Encoding and Decoding Algorithm for Spiking Neural Networks.", in _Frontiers in Neuroscience_, vol. 13, pp. 1420, 2020.'
+              url: https://www.frontiersin.org/articles/10.3389/fnins.2019.01420/full
+        - title: Brain-inspired Neural Architecture Design
+          content:
+            - cite: 'S. Zhang, Q. Yang, C. Ma, J. Wu*, H. Li, and K. C. Tan. "TC-LIF: A Two-Compartment Spiking Neuron Model for Long-term Sequential Modelling.", in _AAAI-24_, Vancouver, Canada. (Accepted)'
+              url: https://arxiv.org/abs/2308.13250
+            - cite: 'Z. Pan, M. Zhang, J. Wu*, H. Li, "Multi-Tone Phase Coding of Interaural Time Difference for Sound Source Localization with Spiking Neural Networks", in _IEEE Transactions on Audio, Speech and Language Processing_, 2021. '
+              url: https://ieeexplore.ieee.org/abstract/document/9502013/
+            - cite: 'J. Wu, Z. Pan, M. Zhang, R. K. Das, Y. Chua, and H. Li, "Robust Sound Recognition: A Neuromorphic Approach.", in _INTERSPEECH_, Graz, Austria, 2019.'
+              url: https://www.isca-speech.org/archive/interspeech_2019/wu19h_interspeech.html
+        - title: Computational Audition & Speech Processing
+          content:
+            - cite: 'J. Wu, Q. Liu, M. Zhang, Z. Pan, H. Li, and K. C. Tan, "HuRAI: A Brain-Inspired Computational Model for Human-Robot Auditory Interface.", in _Neurocomputing_, 2021.'
+              url: https://www.sciencedirect.com/science/article/pii/S0925231221013266
+            - cite: 'J. Wu, E. Yılmaz, M. Zhang, H. Li, and K. C. Tan, "Deep Spiking Neural Networks for Large Vocabulary Automatic Speech Recognition.", in _Frontiers in Neuroscience_, vol. 14, pp. 199, 2020.'
+              url: https://www.frontiersin.org/articles/10.3389/fnins.2020.00199/full
+            - cite: 'J. Wu, Y. Chua, M. Zhang, H. Li, and K. C. Tan, "A Spiking Neural Network Framework for Robust Sound Classification.", in _Frontiers in Neuroscience_, vol. 12, pp. 836, 2018. 154'
+              url: https://www.frontiersin.org/articles/10.3389/fnins.2018.00836/full
+            - cite: 'C. Xu, W. Rao, J. Wu, H. Li, "Target Speaker Verification with Selective Auditory Attention for Single and Multi-talker Speech ", in _IEEE Transactions on Audio, Speech and Language Processing_, 2021.'
+              url: https://ieeexplore.ieee.org/abstract/document/9502020/
+      design:
+        columns: '2'
     design:
       columns: '2'
       view: citation
+  # - block: collection
+  #   id: publication
+  #   content:
+  #     title: Recent Publications
+  #     text: |-
+  #       {{% callout note %}}
+  #       Quickly discover relevant content by [filtering publications](./publication/).
+  #       {{% /callout %}}
+  #     filters:
+  #       folders:
+  #         - publication
+  #       exclude_featured: true
+  #   design:
+  #     columns: '2'
+  #     view: citation
   - block: accomplishments
     content:
-      title: 'Award & Grant'
+      title: 'Award'
       items:
         - date_start: '2023-01-01'
           organization: Intel Neuromorphic Deep Noise Suppression Challenge
@@ -235,11 +266,6 @@ sections:
           organization: International Collegiate Competition for Brain-inspired Computing
           title: Second Prize of Final Contest with Cash Prize of RMB 60,000
           description: Tsinghua University, China (Team Leader)
-        - date_start: '2019-01-01'
-          organization: Zhejiang Lab
-          title: Zhejiang Lab’s International Talent Fund for Young Professionals
-        - date_start: '2019-01-01'
-          title: Travel Grant to 2nd Annual EPFL Engineering PhD Summit
         - date_start: '2019-01-01'
           date_end: '2020-01-01'
           organization: National University of Singapore
@@ -294,5 +320,32 @@ sections:
           title: 2nd Annual EPFL Engineering PhD Summit
           organization: EPFL, Lausanne, Switzerland
     design:
+      columns: '2'
+  - block: collection
+    id: news
+    content:
+      title: News
+      subtitle: ''
+      text: ''
+      # Choose how many pages you would like to display (0 = all pages)
+      count: 5
+      # Filter on criteria
+      filters:
+        folders:
+          - news
+        author: ""
+        category: ""
+        tag: ""
+        exclude_featured: false
+        exclude_future: false
+        exclude_past: false
+        publication_type: ""
+      # Choose how many pages you would like to offset by
+      offset: 0
+      # Page order: descending (desc) or ascending (asc) date.
+      order: desc
+    design:
+      # Choose a layout view
+      view: compact
       columns: '2'
 ---
