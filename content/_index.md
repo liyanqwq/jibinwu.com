@@ -178,6 +178,35 @@ sections:
   #       {{< gallery album="team_photos" order="desc" >}}
   #   design:
   #     columns: '1'
+  - block: accomplishments
+    content:
+      title: 'Award'
+      items:
+        - date_start: '2023-01-01'
+          organization: Intel Neuromorphic Deep Noise Suppression Challenge
+          title: Track 1 (Algorithmic) Winner with Cash Prize of USD 15,000
+        - date_start: '2019-01-01'
+          organization: International Collegiate Competition for Brain-inspired Computing
+          title: Second Prize of Final Contest with Cash Prize of RMB 60,000
+          description: Tsinghua University, China (Team Leader)
+        - date_start: '2019-01-01'
+          date_end: '2020-01-01'
+          organization: National University of Singapore
+          title: President’s Graduate Fellowship
+        - date_start: '2018-01-01'
+          organization: International Collegiate Competition for Brain-inspired Computing
+          title: First Prize of Final Contest with Cash Prize of RMB 100,000
+          description: Tsinghua University, China (Team Leader)
+        - date_start: '2018-01-01'
+          organization: 2018 Electrical and Computer Engineering Graduate Student Symposium
+          title: Best Presentation Award
+          description: National University of Singapore
+        - date_start: '2016-01-01'
+          date_end: '2019-01-01'
+          organization: National University of Singapore
+          title: NUS Research Scholarship
+    design:
+      columns: '2'
   - block: publication
     id: featured
     content:
@@ -221,35 +250,6 @@ sections:
     design:
       columns: '2'
       view: citation
-  - block: accomplishments
-    content:
-      title: 'Award'
-      items:
-        - date_start: '2023-01-01'
-          organization: Intel Neuromorphic Deep Noise Suppression Challenge
-          title: Track 1 (Algorithmic) Winner with Cash Prize of USD 15,000
-        - date_start: '2019-01-01'
-          organization: International Collegiate Competition for Brain-inspired Computing
-          title: Second Prize of Final Contest with Cash Prize of RMB 60,000
-          description: Tsinghua University, China (Team Leader)
-        - date_start: '2019-01-01'
-          date_end: '2020-01-01'
-          organization: National University of Singapore
-          title: President’s Graduate Fellowship
-        - date_start: '2018-01-01'
-          organization: International Collegiate Competition for Brain-inspired Computing
-          title: First Prize of Final Contest with Cash Prize of RMB 100,000
-          description: Tsinghua University, China (Team Leader)
-        - date_start: '2018-01-01'
-          organization: 2018 Electrical and Computer Engineering Graduate Student Symposium
-          title: Best Presentation Award
-          description: National University of Singapore
-        - date_start: '2016-01-01'
-          date_end: '2019-01-01'
-          organization: National University of Singapore
-          title: NUS Research Scholarship
-    design:
-      columns: '2'
   # - block: accomplishments
   #   content:
   #     title: 'Invited Talks'
