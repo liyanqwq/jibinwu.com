@@ -250,43 +250,43 @@ sections:
           title: NUS Research Scholarship
     design:
       columns: '2'
-  - block: accomplishments
-    content:
-      title: 'Invited Talks'
-      date_format: Jan 2006
-      items:
-        - date_start: '2023-08-01'
-          title: 2nd International Conference on Smart Technologies For Smart Nation
-          organization: Singapore
-        - date_start: '2023-07-01'
-          title: CAAI International Conference on Artificial Intelligence
-          organization: Fuzhou, China
-        - date_start: '2023-04-01'
-          title: IEEE CIS Shenzhen Chapter Spring Workshop
-          organization: Shenzhen, China
-        - date_start: '2022-11-01'
-          title: ACCESS-CEDA Seminar
-          organization: Online
-        - date_start: '2020-11-01'
-          title: Northwest Normal University Research Seminar
-          organization: Online
-        - date_start: '2020-07-01'
-          title: INTEL Neuromorphic Research Community Forum
-          organization: Online
-        - date_start: '2020-06-01'
-          title: Japan National Institute of Informatics
-          organization: Online
-        - date_start: '2019-12-01'
-          title: Tsinghua University Student Overseas Practicing Program
-          organization: Singapore
-        - date_start: '2019-10-01'
-          title: INTEL Neuromorphic Research Community Fall Workshop
-          organization: Graz, Austria
-        - date_start: '2019-10-01'
-          title: 2nd Annual EPFL Engineering PhD Summit
-          organization: EPFL, Lausanne, Switzerland
-    design:
-      columns: '2'
+  # - block: accomplishments
+  #   content:
+  #     title: 'Invited Talks'
+  #     date_format: Jan 2006
+  #     items:
+  #       - date_start: '2023-08-01'
+  #         title: 2nd International Conference on Smart Technologies For Smart Nation
+  #         organization: Singapore
+  #       - date_start: '2023-07-01'
+  #         title: CAAI International Conference on Artificial Intelligence
+  #         organization: Fuzhou, China
+  #       - date_start: '2023-04-01'
+  #         title: IEEE CIS Shenzhen Chapter Spring Workshop
+  #         organization: Shenzhen, China
+  #       - date_start: '2022-11-01'
+  #         title: ACCESS-CEDA Seminar
+  #         organization: Online
+  #       - date_start: '2020-11-01'
+  #         title: Northwest Normal University Research Seminar
+  #         organization: Online
+  #       - date_start: '2020-07-01'
+  #         title: INTEL Neuromorphic Research Community Forum
+  #         organization: Online
+  #       - date_start: '2020-06-01'
+  #         title: Japan National Institute of Informatics
+  #         organization: Online
+  #       - date_start: '2019-12-01'
+  #         title: Tsinghua University Student Overseas Practicing Program
+  #         organization: Singapore
+  #       - date_start: '2019-10-01'
+  #         title: INTEL Neuromorphic Research Community Fall Workshop
+  #         organization: Graz, Austria
+  #       - date_start: '2019-10-01'
+  #         title: 2nd Annual EPFL Engineering PhD Summit
+  #         organization: EPFL, Lausanne, Switzerland
+  #   design:
+  #     columns: '2'
   - block: collection
     id: publication
     content:
