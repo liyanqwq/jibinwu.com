@@ -37,9 +37,10 @@
               {{- with .organization_url}}</a>{{end -}}
 
               {{ if .organization }}
-              <span class="middot-divider"></span>
+
               {{ end }}
               {{ if .date_start }}
+              <span class="middot-divider"></span>
               {{ (time .date_start) | time.Format ($block.content.date_format | default "2006") }}
               {{end}}
               {{ if .date_end}}

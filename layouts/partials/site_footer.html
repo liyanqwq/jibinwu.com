@@ -2,10 +2,11 @@
 
   {{ partial "blox-core/functions/get_hook" (dict "hook" "footer-start" "context" .) }}
   <p>
-    Copyright &copy; {{now.Year}} {{site.Title}}.<span class="ml-2"></span>
+    Copyright &copy; {{now.Year}} {{site.Title}}.
     {{ $is_sponsor := site.Params.i_am_a_sponsor | default false }}
     {{ $hide_published_with_footer := site.Params.power_ups.hide_published_with | default true }}
     {{ if not (and $is_sponsor $hide_published_with_footer) }}
+      <span class="ml-2"></span>
       {{ $default := "Published with {hugoblox}" }}
       {{ $i18n_published_with := $default }}
       {{ $i18n_published_with = replace $i18n_published_with "{hugoblox}" "<a style=\"color: inherit;\" href=\"https://hugoblox.com/?utm_campaign=poweredby\" target=\"_blank\" rel=\"noopener\">Hugo Blox Builder</a>" | safeHTML }}

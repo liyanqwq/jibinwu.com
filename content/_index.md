@@ -125,7 +125,7 @@ sections:
               interests:
                 - Audio/Speech Signal Processing
             - name: Xinyi CHEN
-              image: media/albums/team/chen_xinyi.webp
+              image: media/albums/team/xinyi_chen.jpg
               interests:
                 - Neuromorphic Computing
                 - Spiking Neural Networks
