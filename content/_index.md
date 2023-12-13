@@ -6,23 +6,6 @@ type: landing
 
 paper_highlight: 'J. Wu'
 
-gallery_item:
-  - album: team_photos
-    image: 2019thu.jpg
-    caption: '2019 International Collegiate Competition for Brain-inspired Computing<br />@Tsinghua University' 
-  - album: team_photos
-    image: 2022hiking.jpg
-    caption: Hiking at Ma On Shan, 2022 Autumn
-  - album: team_photos
-    image: 2023_1_w1.jpg
-    caption: Welcome Reception for New Team Members, 2023 Autumn
-  - album: team_photos
-    image: 2023_1_w2.jpg
-    caption: Welcome Reception for New Team Members, 2023 Autumn
-  - album: team_photos
-    image: 2023_2_intel.png
-    caption: '2023 Intel Neuromorphic Deep Noise Suppression Challenge'
-
 sections:
   - block: about.biography
     id: about
@@ -187,16 +170,16 @@ sections:
         #       text: Research Fellow, City University of Hong Kong (Dongguan)
     design:
       columns: '1'
-  - block: markdown
-    content:
-      title: Team Photos
-      subtitle: ''
-      text: |-
-        {{< gallery album="team_photos" order="desc" >}}
-    design:
-      columns: '1'
+  # - block: markdown
+  #   content:
+  #     title: Team Photos
+  #     subtitle: ''
+  #     text: |-
+  #       {{< gallery album="team_photos" order="desc" >}}
+  #   design:
+  #     columns: '1'
   - block: publication
-    id: publication
+    id: featured
     content:
       title: Featured Research
       content:
@@ -238,21 +221,6 @@ sections:
     design:
       columns: '2'
       view: citation
-  # - block: collection
-  #   id: publication
-  #   content:
-  #     title: Recent Publications
-  #     text: |-
-  #       {{% callout note %}}
-  #       Quickly discover relevant content by [filtering publications](./publication/).
-  #       {{% /callout %}}
-  #     filters:
-  #       folders:
-  #         - publication
-  #       exclude_featured: true
-  #   design:
-  #     columns: '2'
-  #     view: citation
   - block: accomplishments
     content:
       title: 'Award'
@@ -320,30 +288,45 @@ sections:
     design:
       columns: '2'
   - block: collection
-    id: news
+    id: publication
     content:
-      title: News
-      subtitle: ''
-      text: ''
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
+      title: Recent Publications
+      text: |-
+        {{% callout note %}}
+        Quickly discover relevant content by [filtering publications](./publication/).
+        {{% /callout %}}
       filters:
         folders:
-          - news
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
+          - publication
+        exclude_featured: true
     design:
-      # Choose a layout view
-      view: compact
       columns: '2'
+      view: citation
+  # - block: collection
+  #   id: news
+  #   content:
+  #     title: News
+  #     subtitle: ''
+  #     text: ''
+  #     # Choose how many pages you would like to display (0 = all pages)
+  #     count: 5
+  #     # Filter on criteria
+  #     filters:
+  #       folders:
+  #         - news
+  #       author: ""
+  #       category: ""
+  #       tag: ""
+  #       exclude_featured: false
+  #       exclude_future: false
+  #       exclude_past: false
+  #       publication_type: ""
+  #     # Choose how many pages you would like to offset by
+  #     offset: 0
+  #     # Page order: descending (desc) or ascending (asc) date.
+  #     order: desc
+  #   design:
+  #     # Choose a layout view
+  #     view: compact
+  #     columns: '2'
 ---

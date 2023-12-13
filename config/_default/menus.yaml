@@ -11,10 +11,13 @@ main:
     url: '#team'
     weight: 20
   - name: Publications
-    url: '#publication'
+    url: '#featured'
     weight: 30
-  - name: News
-    url: '#news'
+  # - name: News
+  #   url: '#news'
+  #   weight: 40
+  - name: Photos
+    url: '/photos/'
     weight: 40
 
 # Link to a PDF of your resume/CV from the menu.
