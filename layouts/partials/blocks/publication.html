@@ -6,7 +6,7 @@
   <div class="{{if eq $columns "1"}}d-flex justify-content-center{{end}}">
     <div class="btn-group btn-group-sm flex-wrap">
       {{ range $idx, $item := $block.content.content }}
-        <button style="font-size: 11px;" id="pub-{{$idx}}" onclick="toggleNav({{$idx}})" class="btn btn-light btn-sm pub-btn {{ if eq $idx 0 }} active {{ end }}">{{ $item.title }}</button>
+        <button style="font-size: 11px;" id="pub-{{$idx}}" onclick="toggleNav({{$idx}})" class="btn btn-primary btn-sm pub-btn {{ if eq $idx 0 }} active {{ end }}">{{ $item.title }}</button>
       {{ end }}
     </div>
   </div>
