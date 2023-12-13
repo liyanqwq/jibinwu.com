@@ -53,7 +53,7 @@ sections:
       columns: '2'
   - block: accomplishments
     content:
-      title: 'Community Service'
+      title: 'Professional Service'
       items:
         - organization: 'IEEE (Hong Kong) Computational Intelligence Chapter'
           title: 'Executive Committee Member'
