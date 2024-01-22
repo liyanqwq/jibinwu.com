@@ -26,7 +26,7 @@ publication_types:
 - paper-conference
 
 # Publication name and optional abbreviated publication name.
-publication: '_International Conference on Learning Representations_'
+publication: '_International Conference on Learning Representations_. (Accepted)'
 publication_short: ''
 
 doi: ''
