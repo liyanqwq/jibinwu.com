@@ -86,12 +86,12 @@ sections:
               interests:
                 - High-performance Evolutionary Computation
                 - Neuro-evolution
-            - name: Xinmeng XU
-              image: media/albums/team/xu_xinmeng.webp
-              interests:
-                - Speech Enhancement
-                - Acoustic Echo Cancellation
-                - Robot Audition
+            # - name: Xinmeng XU
+            #   image: media/albums/team/xu_xinmeng.webp
+            #   interests:
+            #     - Speech Enhancement
+            #     - Acoustic Echo Cancellation
+            #     - Robot Audition
             - name: Yinsong YAN 
               image: media/albums/team/yan_yinsong.webp
               interests:
@@ -147,11 +147,11 @@ sections:
                 - Neuromorphic Computing
         - title: Research Assistant
           members:
-            - name: Kaixuan YANG
-              image: media/albums/team/yang_kaixuan.webp
-              interests:
-                - Audio Signal Processing
-                - Speech Enhancement
+            # - name: Kaixuan YANG
+            #   image: media/albums/team/yang_kaixuan.webp
+            #   interests:
+            #     - Audio Signal Processing
+            #     - Speech Enhancement
             - name: Mengqi XU
               image: media/albums/team/xu_mengqi.webp
               interests:
