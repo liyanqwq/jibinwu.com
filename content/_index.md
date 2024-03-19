@@ -156,6 +156,11 @@ sections:
               image: media/albums/team/xu_mengqi.webp
               interests:
                 - Machine Learning
+            - name: Shimin ZHANG
+              image: media/albums/team/zhang_shimin.jpg
+              interests:
+                - Spiking Neural Networks
+                - Audio Signal Processing
         # - title: Alumni
         #   members:
         #     - name: Songbai LIU

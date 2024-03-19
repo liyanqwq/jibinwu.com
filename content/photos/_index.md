@@ -22,6 +22,9 @@ gallery_item:
   - album: team_photos
     image: 2023_2_intel.png
     caption: '2023 Intel Neuromorphic Deep Noise Suppression Challenge'
+  - album: team_photos
+    image: 2024_1.jpg
+    caption: 'Mar 2024 @ Park Nature 世外公園'
 ---
 
 <div class="mt-3"></div>
