@@ -9,7 +9,7 @@ title: A Hybrid Neural Coding Approach for Pattern Recognition with Spiking Neur
 authors:
 - Xinyi Chen
 - Qu Yang
-- Jibin Wu
+- '<b>Jibin Wu<span>*</span></b>'
 - Haizhou Li
 - Kay Chen Tan
 

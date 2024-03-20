@@ -7,7 +7,7 @@ title: Training spiking neural networks with local tandem learning
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
 - Qu Yang
-- Jibin Wu
+- '<b>Jibin Wu<span>*</span></b>'
 - Malu Zhang
 - Yansong Chua
 - Xinchao Wang

@@ -9,7 +9,7 @@ title: 'LC-TTFS: Towards Lossless Network Conversion for Spiking Neural Networks
 authors:
 - Qu Yang
 - Malu Zhang
-- Jibin Wu
+- '<b>Jibin Wu<span>*</span></b>'
 - Kay Chen Tan
 - Haizhou Li
 

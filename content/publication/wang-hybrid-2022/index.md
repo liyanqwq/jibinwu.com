@@ -8,7 +8,7 @@ title: A hybrid learning framework for deep spiking neural networks with one-spi
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
 - Jiadong Wang
-- Jibin Wu
+- '<b>Jibin Wu<span>*</span></b>'
 - Malu Zhang
 - Qi Liu
 - Haizhou Li

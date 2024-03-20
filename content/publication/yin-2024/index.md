@@ -9,7 +9,7 @@ authors:
 - Yujia Yin 
 - Xinyi Chen
 - Chenxiang Ma
-- Jibin Wu
+- '<b>Jibin Wu<span>*</span></b>'
 - Kay Chen Tan
 
 # Author notes (such as 'Equal Contribution')
