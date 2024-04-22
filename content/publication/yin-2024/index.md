@@ -27,7 +27,7 @@ publication_types:
 - paper-conference
 
 # Publication name and optional abbreviated publication name.
-publication: '*The International Joint Conference on Neural Networks (IJCNN)*'
+publication: '*The International Joint Conference on Neural Networks (IJCNN)*, Yokohama, Japan. (Accepted)'
 publication_short: ''
 
 doi: ''
