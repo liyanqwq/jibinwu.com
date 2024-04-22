@@ -8,7 +8,7 @@ title: 'Large Language Model-Enhanced Algorithm Selection: Towards Comprehensive
 authors:
 - Xingyu Wu
 - Yan Zhong
-- Jibin Wu
+- ‘**Jibin Wu\***’
 - Bingbing Jiang
 - Kay Chen Tan
 
