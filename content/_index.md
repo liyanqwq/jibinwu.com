@@ -236,8 +236,8 @@ sections:
               url: https://www.frontiersin.org/articles/10.3389/fnins.2019.01420/full
         - title: Brain-inspired Neural Architecture Design
           content:
-            - cite: 'S. Zhang, Q. Yang, C. Ma, J. Wu*, H. Li, and K. C. Tan. "TC-LIF: A Two-Compartment Spiking Neuron Model for Long-term Sequential Modelling.", in _AAAI-24_, Vancouver, Canada. (Accepted)'
-              url: https://arxiv.org/abs/2308.13250
+            - cite: 'S. Zhang, Q. Yang, C. Ma, J. Wu*, H. Li, and K. C. Tan. "TC-LIF: A Two-Compartment Spiking Neuron Model for Long-term Sequential Modelling.", in _Proceedings of the AAAI Conference on Artificial Intelligence_, Vancouver, Canada.'
+              url: https://ojs.aaai.org/index.php/AAAI/article/view/29625/
             - cite: 'Z. Pan, M. Zhang, J. Wu*, H. Li, "Multi-Tone Phase Coding of Interaural Time Difference for Sound Source Localization with Spiking Neural Networks", in _IEEE Transactions on Audio, Speech and Language Processing_, 2021. '
               url: https://ieeexplore.ieee.org/abstract/document/9502013/
             - cite: 'J. Wu, Z. Pan, M. Zhang, R. K. Das, Y. Chua, and H. Li, "Robust Sound Recognition: A Neuromorphic Approach.", in _INTERSPEECH_, Graz, Austria, 2019.'
