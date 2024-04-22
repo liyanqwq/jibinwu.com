@@ -6,12 +6,12 @@ title: 'TC-LIF: A Two-Compartment Spiking Neuron Model for Long-term Sequential 
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- S. Zhang
-- Q. Yang
-- C. Ma
-- '**J. Wu\***'
-- H. Li
-- K. C. Tan
+- Shimin Zhang
+- Qu Yang
+- Chenxiang Ma
+- '**Jibin Wu\***'
+- Haizhou Li
+- Kay Chen Tan
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
@@ -28,7 +28,7 @@ publication_types:
 - paper-conference
 
 # Publication name and optional abbreviated publication name.
-publication: '_AAAI-24_, Vancouver, Canada. (Accepted)'
+publication: '_Proceedings of the AAAI Conference on Artificial Intelligence_, Vancouver, Canada. (Accepted)'
 publication_short: ''
 
 doi: ''
@@ -44,7 +44,8 @@ tags: []
 featured: false
 
 # Links
-url_pdf: 'https://arxiv.org/abs/2308.13250'
+# url_pdf: 'https://arxiv.org/abs/2308.13250'
+url_pdf: 'https://ojs.aaai.org/index.php/AAAI/article/view/29625'
 url_code: ''
 url_dataset: ''
 url_poster: ''
