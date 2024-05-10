@@ -25,6 +25,9 @@ gallery_item:
   - album: team_photos
     image: 2024_1.jpg
     caption: 'Mar 2024 @ Park Nature 世外公園'
+  - album: team_photos
+    image: 2024_CCCNEW.jpg
+    caption: 'Cappo Caccia Cognitive Neuromorphic Engineering Workshop 2024 (Left: Wolfgang Maass, Right: Jibin Wu)'
 ---
 
 <div class="mt-3"></div>
