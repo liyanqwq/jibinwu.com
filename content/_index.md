@@ -69,12 +69,12 @@ sections:
         - title: Postdoc Fellows
           members:
             - name: Xingyu WU
-              image: media/albums/team/xingyu_wu.jpg
+              image: media/albums/team/wu_xingyu.jpg
               interests:
                 - Large Foundation Models
                 - Causality-based Machine Learning
             - name: Shenghao WU
-              image: media/albums/team/shenghao_wu.jpg
+              image: media/albums/team/wu_shenghao.jpg
               interests:
                 - Evolutionary Transfer Optimization
                 - Transfer Learning
