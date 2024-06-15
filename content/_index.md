@@ -69,12 +69,12 @@ sections:
         - title: Postdoc Fellows
           members:
             - name: Xingyu WU
-              image: media/albums/team/xingyu_wu.webp
+              image: media/albums/team/xingyu_wu.jpg
               interests:
                 - Large Foundation Models
                 - Causality-based Machine Learning
             - name: Shenghao WU
-              image: media/albums/team/shenghao_wu.webp
+              image: media/albums/team/shenghao_wu.jpg
               interests:
                 - Evolutionary Transfer Optimization
                 - Transfer Learning
@@ -82,7 +82,7 @@ sections:
         - title: PhD Students
           members:
             - name: Beichen HUANG
-              image: media/albums/team/huang_beichen.webp
+              image: media/albums/team/huang_beichen.jpg
               interests:
                 - High-performance Evolutionary Computation
                 - Neuro-evolution
@@ -93,18 +93,18 @@ sections:
             #     - Acoustic Echo Cancellation
             #     - Robot Audition
             - name: Yinsong YAN 
-              image: media/albums/team/yan_yinsong.webp
+              image: media/albums/team/yan_yinsong.jpg
               interests:
                 - Brain-inspired Computing
                 - Spiking Neural Networks
             - name: Yu ZHOU
-              image: media/albums/team/zhou_yu.webp
+              image: media/albums/team/zhou_yu.jpg
               interests:
                 - Federated Learning
                 - Evolutionary Computation
                 - Deep Reinforcement Learning
             - name: Haokai HONG
-              image: media/albums/team/hong_haokai.webp
+              image: media/albums/team/hong_haokai.jpg
               interests:
                 - Multi-objective Optimization
                 - Large-scale Optimization
@@ -115,13 +115,13 @@ sections:
                 - AGI
                 - Deep Learning
             - name: Yajie ZHANG 
-              image: media/albums/team/zhang_yajie.webp
+              image: media/albums/team/zhang_yajie.jpg
               interests:
                 - Multimodal Biomedical AI
                 - Causal Inference
                 - Domain Adaptation
             - name: Xiang HAO
-              image: media/albums/team/hao_xiang.webp
+              image: media/albums/team/hao_xiang.jpg
               interests:
                 - Audio/Speech Signal Processing
             - name: Xinyi CHEN
@@ -130,7 +130,7 @@ sections:
                 - Neuromorphic Computing
                 - Spiking Neural Networks
             - name: Chenxiang MA
-              image: media/albums/team/ma_chenxiang.webp
+              image: media/albums/team/ma_chenxiang.jpg
               interests:
                 - Spiking Neural Network
                 - Local Learning
@@ -153,7 +153,7 @@ sections:
             #     - Audio Signal Processing
             #     - Speech Enhancement
             - name: Mengqi XU
-              image: media/albums/team/xu_mengqi.webp
+              image: media/albums/team/xu_mengqi.jpg
               interests:
                 - Machine Learning
             - name: Shimin ZHANG
