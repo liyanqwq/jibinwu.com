@@ -109,7 +109,7 @@ sections:
                 - Multi-objective Optimization
                 - Large-scale Optimization
             - name: Ziyuan YE
-              image: media/albums/team/ye_ziyuan.webp
+              image: media/albums/team/ziyuan_ye.png
               interests:
                 - NeuroAI
                 - AGI
