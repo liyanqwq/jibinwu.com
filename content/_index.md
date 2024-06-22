@@ -47,8 +47,8 @@ sections:
           title: Associate Editor
         - organization: 'IEEE Transactions on Cognitive and Developmental Systems (IF: 5.0)'
           title: Associate Editor
-        - organization: Natural Language Processing Journal
-          title: Editor
+        # - organization: Natural Language Processing Journal
+        #   title: Editor
     design:
       columns: '2'
   - block: accomplishments
