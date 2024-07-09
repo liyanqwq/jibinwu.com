@@ -187,6 +187,9 @@ sections:
     content:
       title: 'Award'
       items:
+        - date_start: '2024-01-01'
+          organization: IEEE Conference on Artificial Intelligence
+          title: Best Paper Award
         - date_start: '2023-01-01'
           organization: Intel Neuromorphic Deep Noise Suppression Challenge
           title: Track 1 (Algorithmic) Winner with Cash Prize of USD 15,000
