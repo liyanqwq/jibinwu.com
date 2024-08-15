@@ -119,11 +119,11 @@ sections:
                 - Federated Learning
                 - Evolutionary Computation
                 - Deep Reinforcement Learning
-            - name: Haokai HONG
-              image: media/albums/team/hong_haokai.jpg
-              interests:
-                - Multi-objective Optimization
-                - Large-scale Optimization
+            # - name: Haokai HONG
+            #   image: media/albums/team/hong_haokai.jpg
+            #   interests:
+            #     - Multi-objective Optimization
+            #     - Large-scale Optimization
             - name: Ziyuan YE
               image: media/albums/team/ziyuan_ye.png
               interests:
