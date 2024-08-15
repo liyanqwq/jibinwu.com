@@ -73,25 +73,41 @@ sections:
               interests:
                 - Large Foundation Models
                 - Causality-based Machine Learning
-            - name: Shenghao WU
-              image: media/albums/team/wu_shenghao.jpg
+            - name: Rui LIU
+              image: media/albums/team/liu_rui.jpg
               interests:
-                - Evolutionary Transfer Optimization
-                - Transfer Learning
-                - Data-driven Optimization
+                - Deep Learning
+                - Neuroimaging Analysis
+                - Medical Image Computing
         - title: PhD Students
           members:
+            - name: Ruofan YAN
+              image: media/albums/team/yan_ruofan.jpg
+              interests:
+                - Brain-computer Interface
+                - Computational Audition
+            - name: Zhige CHEN
+              image: media/albums/team/chen_zhige.jpg
+              interests:
+                - Brain-computer Interface
+                - EEG Signal Processing
+                - Deep Transfer Learning
+            - name: Xianwei CHEN
+              image: media/albums/team/chen_xianwei.jpg
+              interests:
+                - Embodied Intelligence
+                - Learning for Robotics
+            - name: Yuhong CHOU
+              image: media/albums/team/chou_yuhong.jpg
+              interests:
+                - Linear Fundation Models
+                - Large Language  Models
+                - Conditional Computation
             - name: Beichen HUANG
               image: media/albums/team/huang_beichen.jpg
               interests:
                 - High-performance Evolutionary Computation
                 - Neuro-evolution
-            # - name: Xinmeng XU
-            #   image: media/albums/team/xu_xinmeng.webp
-            #   interests:
-            #     - Speech Enhancement
-            #     - Acoustic Echo Cancellation
-            #     - Robot Audition
             - name: Yinsong YAN 
               image: media/albums/team/yan_yinsong.jpg
               interests:
