@@ -82,7 +82,7 @@ sections:
         - title: PhD Students
           members:
             - name: Ruofan YAN
-              image: media/albums/team/yan_ruofan.jpg
+              image: media/albums/team/yrf.jpg
               interests:
                 - Brain-computer Interface
                 - Computational Audition
@@ -98,7 +98,7 @@ sections:
                 - Embodied Intelligence
                 - Learning for Robotics
             - name: Yuhong CHOU
-              image: media/albums/team/chou_yuhong.jpg
+              image: media/albums/team/cyh.png
               interests:
                 - Linear Fundation Models
                 - Large Language  Models
@@ -109,7 +109,7 @@ sections:
                 - High-performance Evolutionary Computation
                 - Neuro-evolution
             - name: Yinsong YAN 
-              image: media/albums/team/yan_yinsong.jpg
+              image: media/albums/team/yys.jpg
               interests:
                 - Brain-inspired Computing
                 - Spiking Neural Networks
@@ -131,7 +131,7 @@ sections:
                 - AGI
                 - Deep Learning
             - name: Yajie ZHANG 
-              image: media/albums/team/zhang_yajie.jpg
+              image: media/albums/team/zyj.jpg
               interests:
                 - Multimodal Biomedical AI
                 - Causal Inference
