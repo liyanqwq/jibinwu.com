@@ -109,7 +109,7 @@ sections:
                 - High-performance Evolutionary Computation
                 - Neuro-evolution
             - name: Yinsong YAN 
-              image: media/albums/team/yys.jpg
+              image: media/albums/team/yanyingsong.png
               interests:
                 - Brain-inspired Computing
                 - Spiking Neural Networks
