@@ -68,6 +68,11 @@ sections:
       members:
         - title: Postdoc Fellows
           members:
+            - name: Yao LI
+              image: media/albums/team/li_yao.jpg
+              interests:
+                - Intelligent Information Processing
+                - Brain-computer Interface
             - name: Xingyu WU
               image: media/albums/team/wu_xingyu.jpg
               interests:
