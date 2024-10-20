@@ -168,11 +168,14 @@ sections:
                 - Neuromorphic Computing
         - title: Research Assistant
           members:
-            # - name: Kaixuan YANG
-            #   image: media/albums/team/yang_kaixuan.webp
-            #   interests:
-            #     - Audio Signal Processing
-            #     - Speech Enhancement
+            - name: Di XU
+              image: media/albums/team/xudi.jpg
+              interests:
+                - Automatic Speech Recognition
+            - name: Yufei ZHANG
+              image: media/albums/team/zhangyufei.jpg
+              interests:
+                - Audio/Speech Signal Processing
             - name: Mengqi XU
               image: media/albums/team/xu_mengqi.jpg
               interests:
