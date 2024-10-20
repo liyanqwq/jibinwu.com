@@ -163,7 +163,7 @@ sections:
             - name: Qu YANG
               image: media/albums/team/qu_yang.jpg
               interests:
-                - Spiking Neural Network
+                - Spiking Neural Networks
                 - Neural Coding
                 - Neuromorphic Computing
         - title: Research Assistant
